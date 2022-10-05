@@ -1,3 +1,10 @@
+/*
+ * This class Defines how the healthbar looks
+ * It does this by drawing a rectangel adn adding it to a JPanel
+ *
+ * @author LivNTI
+ */
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -5,7 +12,6 @@ public class Healthbar extends JPanel {
 
 
     public Healthbar() {
-
     }
 
     @Override
@@ -17,5 +23,7 @@ public class Healthbar extends JPanel {
     protected void addHealthbar(Graphics g) {
         g.setColor(Color.GREEN);
         g.fillRect(10, 50, 300, 100);
+
+
     }
 }
