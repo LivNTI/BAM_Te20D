@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fc7359c-577e-44a7-8312-b94e8fe2fdbb" name="Changes" comment="First">
+    <list default="true" id="3fc7359c-577e-44a7-8312-b94e8fe2fdbb" name="Changes" comment="Healthbar initial graphics">
+      <change afterPath="$PROJECT_DIR$/src/Healthbar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Friend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Friend.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +59,17 @@
       <workItem from="1664282188477" duration="1336000" />
       <workItem from="1664348303427" duration="5619000" />
       <workItem from="1664362025827" duration="10000" />
-      <workItem from="1664884020770" duration="638000" />
+      <workItem from="1664884020770" duration="1418000" />
+      <workItem from="1664951853715" duration="2509000" />
     </task>
+    <task id="LOCAL-00001" summary="First">
+      <created>1664884669125</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664884669125</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +88,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First" />
-    <option name="LAST_COMMIT_MESSAGE" value="First" />
+    <MESSAGE value="Healthbar initial graphics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Healthbar initial graphics" />
   </component>
 </project>
