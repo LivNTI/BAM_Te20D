@@ -19,7 +19,7 @@ public class Main {
         //String newName = inLine.next();
         //aFriend.setName(newName);
         System.out.println("my old friend is now called " + aFriend.getName());
-        drawWindow();
+        drawWindow(aFriend);
     }
 
     /*
@@ -27,10 +27,10 @@ public class Main {
     In this case the figure is a rectangle
 */
 
-    public static void drawWindow() {
+    public static void drawWindow(Friend friend) {
         JFrame frame = new JFrame("Healthbar"); //create the window
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //Set action on closing window
-        Healthbar healthbar = new Healthbar(); //Create the canvas
+        Healthbar healthbar = new Healthbar(friend); //Create the canvas
         healthbar.setPreferredSize(new Dimension(600, 300));
         frame.getContentPane().add(healthbar); // add the canvas to the frame
         frame.pack(); // Package everything
