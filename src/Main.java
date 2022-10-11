@@ -16,8 +16,8 @@ public class Main {
         Friend myFriend = new Friend("Filip");
         System.out.println("my friend is called " + myFriend.getName());
         System.out.println("What is your friends name: ");
-        String newName = inLine.next();
-        aFriend.setName(newName);
+        //String newName = inLine.next();
+        //aFriend.setName(newName);
         System.out.println("my old friend is now called " + aFriend.getName());
         drawWindow();
     }
