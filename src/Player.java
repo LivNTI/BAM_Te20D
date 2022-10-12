@@ -1,15 +1,17 @@
-public class Friend {
+public class Player {
     //instance variables
     private String name = "A friend";
     private int hp = 100;
+    private boolean friend;
 
     //Constructors
-    public Friend() {
+    public Player() {
     }
 
-    public Friend(String name) {
+    public Player(String name, boolean friend) {
 
         this.name = name;
+        this.friend = friend;
     }
 
     //Methods

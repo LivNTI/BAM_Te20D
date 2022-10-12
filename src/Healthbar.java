@@ -9,11 +9,11 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Healthbar extends JPanel {
-    Friend myFriend;
+    Player myPlayer;
 
 
-    public Healthbar(Friend friend) {
-        myFriend = friend;
+    public Healthbar(Player player) {
+        myPlayer = player;
     }
 
     @Override
@@ -24,7 +24,11 @@ public class Healthbar extends JPanel {
 
     protected void addHealthbar(Graphics g) {
         g.setColor(Color.GREEN);
-        g.fillRect(10, 50, myFriend.getHp(), 100);
+        g.fillRect(10, 50, myPlayer.getHp(), 100);
+    }
+
+    public void getHit() {
+        System.out.println("OW!");
 
 
     }
